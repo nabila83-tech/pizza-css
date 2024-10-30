@@ -1,0 +1,250 @@
+
+
+body {
+    background-color: #eab55c;
+}
+
+/* HEADER  */
+.top-page {
+    background-color: #c46762;
+    height: 6vh;
+    padding: 15px;
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+}
+.header {
+    display: flex;
+}
+.header-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 3rem;
+}
+.nav {
+    width: 100%;
+    padding-left: 5%;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li {
+    width: 100%;
+    justify-content: space-around;
+    margin-left: rem;
+}
+.nav ul li a {
+    color: #fcf8e6;
+    text-decoration: none;
+}
+.button-contact {
+    color: #c46762;
+    background-color: #fcf8e6;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+/* MAIN  */
+.middle-page {
+    background-color: #ffffff;
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+    margin-top: -1.8rem;
+}
+.landing-page {
+    width: 50%;
+    margin-left: 30rem;
+    background-size: cover;
+}
+.big-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 30%;
+    padding-top: 1rem;
+    margin-left: 20rem;
+}
+.color-red {
+    color: #c46762;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.pizza-header {
+    height: 10vh;
+    width: 30%;
+    margin-left: 20rem;
+}
+
+.article {
+    display: flex;
+}
+.pizza-article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcf8e6;
+    width: 30%;
+    margin: 2rem;
+    padding: 1rem;
+}
+.pizza-article-title {
+    color: #c46762;
+    font-weight: 500;
+    text-align: center;
+}
+.pizza-article-text {
+    text-align: center;
+}
+.pizza-article-lien {
+    text-align: center;
+    background-color: #5a9d9b;
+    width: 20%;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    margin-left: 10rem;
+}
+.pizza-article-lien a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c46762;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    margin-top: -1.8rem;
+    height: 22rem;
+}
+.history-family {
+    display: grid;
+}
+.history-title {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
+    padding-top: 1rem;
+    margin-left: 8rem;
+}
+.history-text {
+    color: #ffffff;
+    margin-left: 10rem;
+    width: 40%;
+}
+.history-lien {
+    background-color: #fcf8e6;
+    width: 20%;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+}
+.history-lien a {
+    color: #c46762;
+    text-decoration: none;
+    margin-left: 3rem;
+    font-weight: 600;
+}
+.history-image-chef {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 15rem;
+    margin-top: 2.5rem;
+}
+
+.maison {
+    background-color: #ffffff;
+    margin-left: -0.5rem;
+    margin-right: -1rem;
+    margin-top: -3rem;
+}
+.maison-image {
+    margin: 3rem;
+    margin-left: 30rem;
+    
+}
+.maison-image-plateaux {
+    width: 20rem;
+    height: 10rem;
+}
+.maison-title {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
+    margin: 3rem;
+    margin-right: 40rem;
+}
+.maison-text { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem;
+    margin-left: 30rem;
+}
+.maison-lien {
+    background-color: #c46762;
+    width: 30%;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    margin-left: 35rem;
+    margin-bottom: 2rem;
+}
+.maison-lien a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15rem;
+}
+.maison-pizza {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.maison-p {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.maison-image-logo {
+    margin-right: 30rem;
+}
+.maison-logo-vert {
+    width: 7rem;
+    height: 6rem;
+    margin-left: 25rem;
+}
+.maison-title-2 {
+    color: #c46762;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
+    margin: 3rem;
+    text-align: center;
+}
+.container {
+    display: flex;
+    background-color: #eab55c;
+    margin-left: -0.5rem;
+    margin-right: -1rem;
+    margin-top: -3rem;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 5rem;
+}
+.message-text {
+ background-color: #ffffff;
+ padding: 1rem;
+}
+.message-profil {
+    height: 2rem;
+    margin-left: 5rem;}
